@@ -1,0 +1,25 @@
+li{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+}
+
+h5{
+    color: #c00;
+}
+
+#marca {
+    align-content: center;
+    width: 150px; /* Ajusta el tamaño deseado en píxeles */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Mantiene la proporción de la imagen */
+}
+
+#collapser:hover{
+    background: black;
+}
