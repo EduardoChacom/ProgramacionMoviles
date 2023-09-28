@@ -1,0 +1,58 @@
+/* Logo */
+#tipologo {
+    align-content: center;
+    width: 50px; /* Ajusta el tamaño deseado en píxeles */
+    height: auto;
+    display: block; /* Mantiene la proporción de la imagen */
+    border-radius: 100%;
+}
+
+/* Botones */
+#roundButtons {
+    border-radius: 100%;
+    width: 55px; /* Ajusta el tamaño deseado en píxeles */
+    height: auto;
+}
+
+#roundButton:hover #roundButtons {
+    opacity: 0.7; /* Opacidad reducida al pasar el cursor (efecto de oscurecimiento) */
+}
+
+#roundButton {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Brand */
+#brand {
+    align-content: center;
+    width: 100px; /* Ajusta el tamaño deseado en píxeles */
+    height: auto;
+    display: block; /* Mantiene la proporción de la imagen */
+}
+
+/* Barra de busqueda */
+.search-input {
+    padding: 10px 20px; /* Añade un relleno para el input */
+    background-color: #333333;
+    border: 2px solid #333333; /* Añade un borde */
+    border-radius: 30px; /* Establece el radio del borde para hacerlo redondeado */
+    width: 300px; /* Establece el ancho del input según sea necesario */
+    outline: none; /* Quita el contorno predeterminado al hacer clic */
+    color: aliceblue;
+  }
+
+  .search-input::placeholder {
+    color: #bfbfbf; /* Color del texto del placeholder */
+  }
+
+  .search-input:hover {
+    opacity: 0.7;
+  }
+
+  /* Body */
+body{
+    background-color: #1c1c1c;
+}

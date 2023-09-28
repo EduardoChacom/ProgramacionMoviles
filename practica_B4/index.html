@@ -10,123 +10,168 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Pruebas!</title>
 
     <link rel="stylesheet" href="./public/style.css">
+    <script src="./main.js"></script>
     <!-- Carousel, jumbotron, card, navbar -->
 </head>
 
 <body>
-    <!-- Logo -->
 
-    <div class="row">
-        <div class="">
-            <img src="./img/Marca.png" alt="" class="img-fluid" id="marca">
+    <!-- Headline -->
+    <div class="row d-none d-lg-block" style="background-color: #f7f7f7;">
+        <div class="container">
+            <p class="text-center mx-auto m-1" style="color: rgb(138, 138, 138);">
+                <strong>Es noticia:</strong>
+                <small>
+                    América vs Tigres Femenil /
+                    Candidato Morena 2024 /
+                    Marcelo Ebrard /
+                    Serie del Rey LMB 2023 /
+                    Canelo Álvarez /
+                    Aborto en México /
+                    NFL /
+                    Free Fire /
+                    Encuestas Morena /
+                    Lefty SM /
+                    One Piece /
+                    Kiwo </small>
+            </p>
         </div>
+    </div>
 
+    <!-- Logo -->
+    <div class="row mb-1">
+        <img src="./img/Marca.png" alt="" class="img-fluid" id="marca">
+    </div>
 
+    <!-- Narbar -->
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: #c00;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Narbar -->
-        <nav class="navbar navbar-expand-md navbar-dark " style="background-color: #c00;">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-                    <!-- Container of the Narbar -->
-                    <div class="container">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" style="color: aliceblue;" id="botonMarca">
-                                    Fútbol
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li><a class="dropdown-item" href="#" style="color:aliceblue ;">Action</a></li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Another action</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Something else
-                                            here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" style="color: aliceblue;" id="botonMarca">
-                                    Motor
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Action</a></li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Another action</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Something else
-                                            here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true" style="color: aliceblue;">Boxeo</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" style="color: aliceblue;" id="botonMarca">
-                                    NFL
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Action</a></li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Another action</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Something else
-                                            here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" style="color: aliceblue;" id="botonMarca">
-                                    Otros deportes
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Action</a></li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Another action</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Something else
-                                            here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" style="color: aliceblue;" id="botonMarca">
-                                    Mas +
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Action</a></li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Another action</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#" style="color: aliceblue;">Something else
-                                            here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+
+                <!-- Container of the Narbar -->
+                <div class="container">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <!-- First button -->
+                        <button class="btn btn-transparent boton-colapso" style="color: aliceblue;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false"
+                            aria-controls="collapseContent">
+                            <strong>Futbol</strong>
+                        </button>
+
+                        <button class="btn btn-transparent boton-colapso" style="color: aliceblue;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseContent1" aria-expanded="false"
+                            aria-controls="collapseContent1">
+                            <strong>Motor</strong>
+                        </button>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" style="color: aliceblue;">Boxeo</a>
+                        </li>
+
+                        <button class="btn btn-transparent boton-colapso" style="color: aliceblue;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseContent2" aria-expanded="false"
+                            aria-controls="collapseContent2">
+                            <strong>NFL</strong>
+                        </button>
+
+                        <button class="btn btn-transparent boton-colapso" style="color: aliceblue;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseContent3" aria-expanded="false"
+                            aria-controls="collapseContent3">
+                            <strong>Otros deportes</strong>
+                        </button>
+
+                        <button class="btn btn-transparent boton-colapso" style="color: aliceblue;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseContent4" aria-expanded="false"
+                            aria-controls="collapseContent4">
+                            <strong>Mas +</strong>
+                        </button>
+
+                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    </div>
+
+    <!-- Collapses -->
+    <div class="container">
+        <div class="collapse" id="collapseContent">
+            <div class=" bg-dark p-5">
+                <p style="color: aliceblue;">
+                    El fútbol, futbol o balompié es un deporte de equipo jugado entre dos conjuntos de once jugadores
+                    cada uno, mientras los árbitros se ocupan de que las normas se cumplan correctamente.</p>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseContent1">
+            <div class=" bg-dark p-5">
+                <p style="color: aliceblue;">
+                    El Campeonato Mundial de Fórmula 1 de la FIA, más conocido como Fórmula 1, F1 o Fórmula Uno, es la
+                    principal competición de automovilismo internacional .</p>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseContent2">
+            <div class=" bg-dark p-5">
+                <p style="color: aliceblue;">
+                    La National Football League, en español conocida como Liga Nacional de Fútbol Americano, es la mayor
+                    liga de fútbol americano profesional de Estados Unidos. </p>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseContent3">
+            <div class=" bg-dark p-5">
+                <p style="color: aliceblue;">
+                    ESPN Deportes es un canal de televisión por suscripción estadounidense que emite eventos en español,
+                    propiedad de ESPN Inc., una empresa conjunta entre The Walt Disney Company.</p>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseContent4">
+            <div class=" bg-dark p-5">
+                <p style="color: aliceblue;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut suscipit dolores provident ipsum
+                    perspiciatis voluptates molestias praesentium temporibus aut!</p>
+            </div>
+        </div>
     </div>
 
     <!-- Container of the body -->
     <div class="container">
 
+        <!-- Promocional -->
+        <div class="row mt-3">
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/casino-caliente.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/promoción2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/promoción3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <hr>
 
         <!-- News -->
-        <div class="row mt-3">
+        <div class="row mt-3 align-items-center justify-content-between">
 
             <!-- Left -->
-            <div class="col-12 col-sm-12 col-md-8">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                 <img src="./img/denuncia.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Fútbol Femenil</h5>
@@ -135,10 +180,13 @@
                 </div>
             </div>
 
+
+
             <!-- Right -->
-            <div class="col-12 col-sm-12 col-md-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+
                 <div class="mb-3">
-                    <div class="row">
+                    <div class="row" style="background-color: #f7f7f7;">
                         <div class="col-6">
                             <img src="./img/formula.jpg" class="card-img-top" alt="...">
                         </div>
@@ -149,8 +197,10 @@
                     </div>
                 </div>
 
+                <hr class="d-none d-lg-block">
+
                 <div class="mb-3">
-                    <div class="row">
+                    <div class="row" style="background-color: #f7f7f7;">
                         <div class="col-6">
                             <img src="./img/formula.jpg" class="card-img-top" alt="...">
                         </div>
@@ -161,8 +211,10 @@
                     </div>
                 </div>
 
+                <hr class="d-none d-lg-block">
+
                 <div class="mb-3">
-                    <div class="row">
+                    <div class="row" style="background-color: #f7f7f7;">
                         <div class="col-6">
                             <img src="./img/formula.jpg" class="card-img-top" alt="...">
                         </div>
@@ -175,7 +227,47 @@
             </div>
         </div>
 
+
         <hr>
+
+        <!-- Cards -->
+        <div class="row mt-3">
+            <div class="col-12 col-md-4 col-xs-12 mx-auto">
+
+                <img src="./img/amelie.jpeg" class="img-fluid max" alt="">
+                <div class="card-body">
+                    <p class="card-text">This is longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer</p>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-12 col-md-4 col-xs-12 mx-auto">
+
+                <img src="./img/amelie.jpeg" class="img-fluid max" alt="">
+                <div class="card-body">
+                    <p class="card-text">This is longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer</p>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-12 col-md-4 col-xs-12 mx-auto">
+
+                <img src="./img/amelie.jpeg" class="img-fluid max" alt="">
+                <div class="card-body">
+                    <p class="card-text">This is longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer</p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
 
     </div>
 
