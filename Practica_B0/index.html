@@ -17,42 +17,111 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top"
         style="background-color: #2a2929; border-bottom: 1px solid #3b3b3b;">
 
         <div class="row">
-
             <div class="col-12 col-sm-12 col-md-2">
                 <!-- Tipologo -->
                 <a href="./index.html" target="_self" class="d-none d-md-block ms-2 ">
                     <img src="./src/img/tipologo.png" alt="" class="img-fluid" id="tipologo">
                 </a>
-
+                
                 <!-- Brand -->
                 <a href="./index.html" target="_self" class="d-md-none">
                     <img src="./src/img/brand.png" alt="" class="img-fluid" id="brand">
                 </a>
             </div>
 
-            <!-- Input de navegación -->
+            <!-- Input of navegation -->
             <div class="col-12 col-sm-12 col-md-10">
                 <form class="d-flex ms-2" role="search">
                     <input type="text" class="search-input" placeholder="Buscar en inBook">
 
-                    <button class="d-flex ms-2" type="submit" id="roundButton">
-                        <img src="./src/img/3lineas.png" alt="" id="roundButtons" class="ms-2 d-none d-md-block">
+                    <!-- Button of settings -->
+                    <button class="ms-2" type="submit" id="roundButton">
+                        <img src="./src/img/3lineas.png" alt="" id="roundButtons" class="ms-2">
                     </button>
                 </form>
             </div>
     </nav>
 
-
-
-    <!-- Container -->
     <div class="container">
+    <div class="d-none d-md-block" style="margin-top: 50px;">      
+        <!-- Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./src/img/music.png" class="d-block w-100" alt="...">
+                        <div class="row">
+                            <div class="col col-md-12 mx-auto">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Titulo Uno</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur aperiam animi
+                                        repellendus illum
+                                        alias debitis architecto sint hic doloribus? Repellat rerum labore laboriosam
+                                        dignissimos eum dolore,
+                                        architecto eos fugit voluptates incidunt optio officia autem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/img/movies.png" class="d-block w-100" alt="...">
+                        <div class="row">
+                            <div class="col col-md-12 mx-auto">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Titulo Uno</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur aperiam animi
+                                        repellendus illum
+                                        alias debitis architecto sint hic doloribus? Repellat rerum labore laboriosam
+                                        dignissimos eum dolore,
+                                        architecto eos fugit voluptates incidunt optio officia autem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/img/drawing.png" class="d-block w-100" alt="...">
+                        <div class="row">
+                            <div class="col col-md-12 mx-auto">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Titulo Uno</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur aperiam animi
+                                        repellendus illum
+                                        alias debitis architecto sint hic doloribus? Repellat rerum labore laboriosam
+                                        dignissimos eum dolore,
+                                        architecto eos fugit voluptates incidunt optio officia autem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
 
+    <!-- Container of the body -->
+    <div class="container">
     </div>
 
 
